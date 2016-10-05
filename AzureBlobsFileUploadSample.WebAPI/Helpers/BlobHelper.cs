@@ -9,7 +9,7 @@ namespace AzureBlobsFileUploadSample.WebAPI.Helpers
         {
            
             // Retrieve storage account from connection-string
-            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=allotabibstorage;AccountKey=XsUuwCI2Ba8y8WnIfxjlhVGgW+ylhrjlezt9OgG1Koqs97iOOvL09Ru10L12D+Q9yNRlY1EkuxD0DejO6GBgOQ==");
+            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=demonstrationblog;AccountKey=youraccounkey");
 
             // Create the blob client 
             CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
